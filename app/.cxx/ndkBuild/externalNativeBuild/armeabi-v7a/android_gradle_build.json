@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/externalNativeBuild/obj NDK_LIBS_OUT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\externalNativeBuild\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/externalNativeBuild/obj NDK_LIBS_OUT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\externalNativeBuild\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jnidemo3-externalNativeBuild-armeabi-v7a": {
+      "buildCommand": "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/externalNativeBuild/obj NDK_LIBS_OUT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\externalNativeBuild\\lib D:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/externalNativeBuild/obj/local/armeabi-v7a/libjnidemo3.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "jnidemo3",
+      "files": [
+        {
+          "src": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\jnitools.c",
+          "flags": "-target armv7-none-linux-androideabi23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/android_studio_env/window_sdk/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -ID:/Userdata/Desktop/Jnidemo-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\externalNativeBuild\\obj\\local\\armeabi-v7a\\libjnidemo3.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

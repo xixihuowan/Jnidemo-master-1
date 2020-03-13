@@ -1,0 +1,2 @@
+[arm64-v8a] Compile        : jnidemo3 <= jnitools.c
+[arm64-v8a] SharedLibrary  : libjnidemo3.so
