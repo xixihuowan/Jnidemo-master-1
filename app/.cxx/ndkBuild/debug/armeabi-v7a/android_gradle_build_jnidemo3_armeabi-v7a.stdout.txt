@@ -1,1 +1,2 @@
-make: Nothing to be done for `jnidemo3'.
+[armeabi-v7a] Compile thumb  : jnidemo3 <= jnitools.c
+[armeabi-v7a] SharedLibrary  : libjnidemo3.so

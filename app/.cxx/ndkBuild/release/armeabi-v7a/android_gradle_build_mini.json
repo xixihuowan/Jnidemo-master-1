@@ -1,17 +1,18 @@
 {
   "buildFiles": [
-    "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk"
+    "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk"
   ],
   "cleanCommands": [
-    "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+    "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/Ly/Documents/AndroidStudioProjects/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
   ],
-  "buildTargetsCommand": "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/Ly/Documents/AndroidStudioProjects/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "jnidemo3-release-armeabi-v7a": {
       "artifactName": "jnidemo3",
-      "buildCommand": "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Userdata/Desktop/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjnidemo3.so",
+      "buildCommand": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/Ly/Documents/AndroidStudioProjects/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/Ly/Documents/AndroidStudioProjects/Jnidemo-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjnidemo3.so",
       "abi": "armeabi-v7a",
-      "output": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libjnidemo3.so"
+      "output": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libjnidemo3.so",
+      "runtimeFiles": []
     }
   }
 }

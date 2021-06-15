@@ -1,59 +1,129 @@
 {
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 23,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a",
   "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": false,
     "module": {
-      "rootBuildGradleFolder": "D:\\Userdata\\Desktop\\Jnidemo-master",
-      "sdkFolder": "D:\\android_studio_env\\window_sdk",
-      "isNativeCompilerSettingsCacheEnabled": false,
-      "isBuildOnlyTargetAbiEnabled": true,
-      "splitsAbiFilterSet": [],
-      "intermediatesFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates",
-      "gradleModulePathName": ":app",
-      "moduleRootFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app",
-      "makeFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk",
       "buildSystem": "NDK_BUILD",
-      "compilerSettingsCacheFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\.cxx",
-      "cxxFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx",
-      "ndkFolder": "D:\\android_studio_env\\window_sdk\\ndk\\20.1.5948944",
-      "ndkVersion": "20.1.5948944",
-      "ndkSupportedAbiList": [
-        "ARMEABI_V7A",
-        "ARM64_V8A",
-        "X86",
-        "X86_64"
-      ],
+      "cmakeToolchainFile": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build\\intermediates",
+      "makeFile": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\src\\main\\jni\\Android.mk",
+      "moduleBuildFile": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build.gradle",
+      "moduleRootFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "cmakeToolchainFile": "."
+      "ndkFolder": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "22.1.7171670",
+      "project": {
+        "compilerSettingsCacheFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\.cxx",
+        "cxxFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master",
+        "sdkFolder": "E:\\android_studio_sdk\\windows_sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\android_studio_sdk\\windows_sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
     },
-    "buildSystemArgumentList": [],
-    "cFlagList": [],
-    "cppFlagsList": [],
+    "objFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local",
     "variantName": "release",
-    "soFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\lib",
-    "objFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local",
-    "jsonFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release",
-    "gradleBuildOutputFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\cxx\\release",
-    "isDebuggableEnabled": false,
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
       "X86"
     ],
-    "buildTargetSet": []
+    "prefabDirectory": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\prefab",
+    "prefabPackageDirectoryList": []
   },
-  "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 23,
-  "cxxBuildFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a",
-  "jsonFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\android_gradle_build.json",
-  "gradleBuildOutputFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\cxx\\release\\armeabi-v7a",
-  "objFolder": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a",
-  "buildCommandFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_command.txt",
-  "buildOutputFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_output.txt",
-  "modelOutputFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_model.json",
-  "jsonGenerationLoggingRecordFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\json_generation_record.json",
-  "compileCommandsJsonFile": "D:\\Userdata\\Desktop\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\compile_commands.json"
+  "prefabFolder": "C:\\Users\\Ly\\Documents\\AndroidStudioProjects\\Jnidemo-master\\app\\.cxx\\ndkBuild\\release\\prefab\\armeabi-v7a"
 }
